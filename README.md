@@ -1,2 +1,4 @@
-# csd-340
-Web Development with HTML and CSS Summer 2022
+# CSD 340 WEB Development with HTML and CSS
+## Contributors
+	*Professor John Woods
+	*Mitchell D Kwon
