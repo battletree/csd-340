@@ -1,0 +1,91 @@
+<!--
+Mitchell D. Kwon
+CSD 340
+Module 9.2
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CSD 340 Web Development with HTML and CSS</title>
+	
+	
+	<link rel="stylesheet" type="text/css" href="kwon_Ex6.css">
+	
+</head>
+
+
+<body>
+	<header>
+		<h1>Assignment 9.2: Build a Web Page - Part 6</h1>
+	</header>
+	<div id="navbar">
+		<a href = "#">Home</a>
+		<a href = "#">About</a>
+		<a href = "#">Contact</a>
+	</div>
+	
+	<div id="container">
+	
+		<div class="card">
+			<div class="card-title">
+				Book Entry Form
+			</div>
+		</div>
+	
+		<div class="card-content">
+		
+			<div class="form">
+				<div class="form-field">
+					<label for="txtBookName">Book name:</label>
+					<input type="text" id="txtBookName" class="input" name="txtBookName" />
+				</div>
+				<div class="form-field">
+					<button type="submit" class="btn btn-primary full-width">Create Book</button>
+				</div>
+					
+			</div>
+		
+		</div>
+	<br>
+	<br>
+		<div class="card">
+			<div class="card-title">
+				Top 5 Favorite Books
+			</div>
+			
+			<div class="card-content">
+				<br>
+				<table id="books">
+					<tr>
+						<td>The Old Man and The Sea</td>
+						<td>100</td>
+					</tr>
+					<tr>
+						<td>Ready Player One</td>
+						<td>101</td>
+					</tr>
+					<tr>
+						<td>The Fountainhead</td>
+						<td>102</td>
+					</tr>
+					<tr>
+						<td>The Keeper of Dreams</td>
+						<td>103</td>
+					</tr>
+					<tr>
+						<td>Saturnine</td>
+						<td>104</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<footer>
+		<p>
+		 &copy; <script>document.write(new Date().getFullYear())</script>
+		</p>
+	</footer>
+	</div>
+	
+</body>
+</html>
